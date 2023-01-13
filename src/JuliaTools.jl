@@ -1,5 +1,8 @@
 module JuliaTools
 
-# Write your package code here.
+include("gc.jl")
+
+export
+    gc
 
 end
